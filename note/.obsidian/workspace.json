@@ -11,10 +11,14 @@
             "id": "2387fc36daad5969",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "그래프 뷰"
+              "type": "markdown",
+              "state": {
+                "file": "SQL/SQL 3일.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "SQL 3일"
             }
           }
         ]
@@ -176,20 +180,20 @@
       "bases:새 베이스 생성하기": false
     }
   },
-  "active": "87c54dbf1a0b0ab8",
+  "active": "2387fc36daad5969",
   "lastOpenFiles": [
+    "SQL/SQL 1일.md",
+    "HTML/HTML 2일.md",
+    "HTML/HTML 1일.md",
     "SQL/SQL 4일.md",
     "SQL/SQL 3일.md",
     "SQL/SQL 2일.md",
-    "SQL/SQL 1일.md",
     "SQL/SQL 4일.txt",
     "SQL/SQL 3일.txt",
     "SQL/SQL 2일.txt",
     "SQL/SQL 1일.txt",
     "SQL",
     "HTML/태그 정리.canvas",
-    "HTML/HTML 1일.md",
-    "HTML/HTML 2일.md",
     "html.txt",
     "새 텍스트 문서.txt",
     "HTML.md",
