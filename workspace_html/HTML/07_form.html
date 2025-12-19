@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="kr">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        text : <input type = "text"><br>
+        text(기본값) : <input><br>
+        text(value) : <input type = "text" value="초기값"><br>
+        text(placeholder) : <input type = "text" placeholder="플레이스 홀더"><br>
+        text(readonly) : <input type="text" value="readonly" readonly><br>
+        text(disabled) : <input type="text" value="readonly" disabled><br>
+        pw : <input type="password"><br>
+        <textarea rows="10" cols="100">미리 보여줄 글</textarea>
+        <br>
+        datalist : <input type="text" list="temp">
+         <datalist id="temp">
+            <option value="가나"></option>
+            <option value="스위스"></option>
+            <option value="브라질"></option>
+        </datalist>
+        <br><br><br><br><br>
+
+        input.button : <input type="button" value="버튼">
+        <br>
+        button : <button type="button">버튼</button>
+        <br>
+        submit(value X) : <input type="submit">
+        <br>
+        submit : <button type="submit">버튼 submit</button>
+        <br>
+        reset : <input type="reset" value="reset">
+        <br>
+        button image : <button type="button"><img src="cat.jpg" alt="고양아"></button>
+        <br>
+        <hr>
+        checkbox : <input type="checkbox" value="1">샷추가
+        <input type="checkbox" value="2">휘핑크림
+        <input type="checkbox" value="3">펄추가
+        <input type="checkbox" value="4">시럽
+        <br>
+        radio :
+        <input type="radio" name="china" value="5">5
+        <input type="radio" name="china" value="6">6
+        <input type="radio" name="china" value="7">7
+        <br>
+        <input type="radio" name = "gender" value="male">남자
+        <input type="radio" name = "gender" value="female">여자
+        <br>
+        select :
+
+        <select>
+            <option value="1">한식</option>
+            <option value="2">양식</option>
+            <option value="3">중식</option>
+            <option value="4">분식</option>
+            <option value="5">일식</option>
+        </select>
+        <br>
+        select size:
+        <select size="3">
+            <option value="1">한식</option>
+            <option value="2">양식</option>
+            <option value="3">중식</option>
+            <option value="4">분식</option>
+            <option value="5">일식</option>
+        </select>
+        <br>
+        select size multiple:
+        <select size="3" multiple>
+            <option value="1">한식</option>
+            <option value="2">양식</option>
+            <option value="3">중식</option>
+            <option value="4">분식</option>
+            <option value="5">일식</option>
+        </select>
+        <br>
+        label 1 :
+        <label>
+            <input type="checkbox" value="1">펄추가
+        </label>
+        <br>
+        label 2 :
+        <label for="perl">펄추가</label>
+            <input type="checkbox" id="perl">
+        <br>
+        color : 
+        <input type="color">
+        <br>
+        date :
+        <input type="date">
+        <br>
+        time :
+        <input type="time">
+        <br>
+        number :
+        <input type="number">
+        <br>
+        range :
+        <input
+                type="range"
+                min="0"
+                max="100"
+                step="5">
+        fieldset :
+        <fieldset>
+            <legend>제목</legend>
+            내용
+        </fieldset>
+    </form>
+    <hr>
+    <hr>
+    <!--
+        form 속성
+        method : get, post
+        method 기본값은 get
+
+        action : 전송할 주소
+        action 기본값은 현재 내 주소
+    -->
+
+    <form method="get">
+        <input type="text" name="abcd"><br>
+        <input type="text" name="stacy"><br>
+        <input type="submit" value="get 연습">
+    </form>
+    <br>
+    <form method="get" action="https://search.naver.com/search.naver">
+        <input type="text" name="query"><br>
+        <input type="submit" value="네이버 검색">
+    </form>
+    <br>
+    <form method="get" action="https://www.google.com/search">
+        <input type="text" name="q"><br>
+        <input type="submit" value="구글 검색"><br>
+    </form>
+
+    <form method="post">
+        <input type="text" name="abcd"><br>
+        <input type="text" name="stacy"><br>
+        <input type="submit" value="post 연습">
+    </form>
+
+
+
+
+</body>
+</html>
