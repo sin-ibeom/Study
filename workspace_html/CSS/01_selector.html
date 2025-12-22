@@ -35,6 +35,55 @@
 
         /* https로 값이 시작되는 것들(like 검색처럼) */
         [href^=https] {background-color: purple;}
+
+        /* $= 값으로 끝나는 모든 것 */
+        [id$=_title] {background-color: purple;}
+
+        /* 딱 붙여서 사용하면 and 조건이 된다 */
+        input[readonly] {background-color: purple;}
+        input[type=text] {background-color: purple;}
+        a.c2{background-color: purple;}
+        li.c1.c2{background-color: purple;}
+
+        /* 마우스 올렸을 때 */
+        div#div1:hover {background-color: yellow;}
+
+        /* 클릭했을 때 */
+        div#div1:active {background-color: aqua;}
+
+
+        .text1:focus {background-color: yellow;}
+
+
+        #ul1>li:nth-child(2) {background-color: yellow;}
+
+
+        #ul1>li:nth-child(2n-1) {background-color: gray;}
+
+        h3:after{
+            content: "AFTER"
+        }
+
+        ul#ul1 li:not{ font-size: 32px; }
+
+        *::selection { background-color: aqua;}
+
+        [type=checkbox]:checked {width: 30px; height: 18px;}
+
+        [type=checkbox]:checked + span {text-decoration: line-through;}
+
+        /* 우선순위
+            1. !important
+            2. style 속성
+            3. #id 선택자
+            4. 속성 선택자 - 클래스 선택자
+            5. 태그 선택자
+            6. 전체 선택자
+            7. 브라우저 기본 값*/
+        div{ color : skyblue; }
+        .class{ color : pink; }
+        [data-human="천안"] { background-color: coral;}
+
     </style>
 </head>
 <body>
@@ -63,5 +112,49 @@
     <input type="password"><br>
     <a href="http://...">http</a>
     <a href="https://...">https</a>
+
+    <table>
+        <tr>
+            <td>No</td>
+            <td>제목</td>
+            <td>글쓴이</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>제목2</td>
+            <td>글쓴이2</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>제목1</td>
+            <td>글쓴이1</td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <div id="div1">
+        hover 연습
+    </div>
+
+    focus 연습 : <input type="number" class="text1">
+
+    <ul id="ul1">
+        <li class="c2">1</li>
+        <li class="c2">2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+
+    <hr>
+
+    <input type="checkbox"><span>복습</span><br>
+    <input type="checkbox"><span>저녁먹기</span><br>
+
+    <div id="id2" class="class1" data-human="천안">
+        우선 순위 연습
+    </div>
+
 </body>
 </html>
