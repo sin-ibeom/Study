@@ -22,6 +22,22 @@
     .fw-1000 {font-weight: 1000;}
     .fw-2000 {font-weight: 2000;}
     .fw-Bold {font-weight: bold;}
+    .fake-h1 {font-size: 2em; font-weight: bold;}
+    .border{ border : 1px solid red; }
+    .align-right{ text-align: right; }
+    .align-left{ text-align: left; }
+    .align-center{ text-align: center; }
+    .align-justify{ text-align: justify; }
+    .spacing { letter-spacing: 1.5em; }
+    .middle { border : 1px solid red; line-height: 100px; height: 100px; text-align: center; }
+    .lh { line-height: 300%; }
+
+    .nowrap { border: 1px solid red; width: 50vw; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+    .text { border : 1px solid red; width: 200px;}
+    /*한 단어가 너무 길면 튀어나오니까 , 단어 중간에라도 다음 줄에 보여주는 기능*/
+    .word-wrap { word-wrap: break-word; }
+    .word-break { word-break: break-word; }
+    .td1 { text-decoration: underline; }
   </style>
 </head>
 <body>
@@ -32,15 +48,31 @@
       자식 텍스트
   </div>
   </p>
-<div class="style">
-  font-style
-</div>
-<div class="fw-100">100</div>
-<div class="fw-400">400</div>
-<div class="fw-1000">1000</div>
-<div class="fw-2000">2000</div>
-<div class="fw-Bold">Bold</div>
-<h1>h1</h1>
-<div class="fake-h1">fake h1</div>
+  <div class="style">
+    font-style
+  </div>
+  <div class="fw-100">100</div>
+  <div class="fw-400">400</div>
+  <div class="fw-1000">1000</div>
+  <div class="fw-2000">2000</div>
+  <div class="fw-Bold">Bold</div>
+  <hr>
+  <h1>h1</h1>
+  <div class="fake-h1">fake h1</div>
+  <hr>
+  <div class="align-right border">align-right</div>
+  <div class="align-center border">align-center</div>
+  <div class="align-left border">align-left</div>
+  <div class="align-justify">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+  <div class="align-right border"><a href="asdf">a 태그</a></div>
+  <div class="spacing">aaaaaaaaaaa</div>
+  <div class="lh">첫번째 줄<br>두번째 줄</div>
+  <div class="middle">세로 방향 중앙 정렬</div>
+  <hr>
+  <div class="nowrap"></div>
+  <div class="text word-wrap">fdjhlkjkfjsdkhdljhkhjhljhsdfjkfsdjhkjkkkkkkkkkkkkkkkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjk</div>
+  <div class="text word-break">fdjhlkjkfjsdkhdljhkhjhljhsdfjkfsdjhkjkkkkkkkkkkkkkkkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjkjk</div>
+  <div class="td1">글씨 몇자</div>
+  <div class="td2">글씨 몇자</div>
 </body>
 </html>

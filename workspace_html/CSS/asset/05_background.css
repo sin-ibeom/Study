@@ -1,0 +1,42 @@
+#back1 {
+    background-color : #FAB;
+}
+
+#back2 {
+    border : 1px solid red;
+    height : 250px;
+    background-image: url('https://images.icon-icons.com/1861/PNG/96/phonebooth_118224.png');
+    background-repeat: no-repeat;
+    /*background-size: 200px 250px;*/
+    /*background-size: cover;*/
+    /*background-size: contain;*/
+    background-size: 100px 100px;
+    background-position: center center;
+}
+
+.profile {
+    height : 200px;
+    width : 200px;
+    background-size: cover;
+    background-image: url("https://i.namu.wiki/i/mJe2Iw668iROGqFa4mQc2SAOMM2PWg4OL911Woa1yoEIvCMe6CwKkrRLtxixYZlqopc426xYzYSbqZ7z7_PDfA.webp");
+    border-radius: 100px;
+    border : 2px solid black;
+}
+
+#back3 {
+    height: 80vh;
+    background-image: url("https://i.namu.wiki/i/mJe2Iw668iROGqFa4mQc2SAOMM2PWg4OL911Woa1yoEIvCMe6CwKkrRLtxixYZlqopc426xYzYSbqZ7z7_PDfA.webp");
+    background-size: cover;
+    background-attachment: fixed;
+
+    overflow: auto;
+
+}
+#back3 p {
+    height: 200vh;
+}
+
+#back4 {
+    height : 100px;
+    background: #f685f6 url("https://images.icon-icons.com/1861/PNG/96/phonebooth_118224.png") center no-repeat;
+}

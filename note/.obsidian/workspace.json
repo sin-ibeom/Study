@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSS/CSS 1일.md",
+                "file": "CSS/CSS 2일.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CSS 1일"
+              "title": "CSS 2일"
             }
           }
         ]
@@ -182,11 +182,11 @@
   },
   "active": "2387fc36daad5969",
   "lastOpenFiles": [
-    "CSS/CSS.md",
-    "HTML/HTML 3일.md",
     "CSS/CSS 1일.md",
-    "HTML/태그 정리.canvas",
+    "CSS/CSS.md",
     "CSS/CSS 2일.md",
+    "HTML/HTML 3일.md",
+    "HTML/태그 정리.canvas",
     "CSS",
     "HTML/HTML 2일.md",
     "HTML/HTML 1일.md",
