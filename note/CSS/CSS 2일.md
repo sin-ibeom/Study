@@ -76,5 +76,6 @@ auto : 좌우로 가운데 정렬
 	- 컨텐츠 적기
 
 ### box-sizing
--border-box : 테두리 두께 + padding +  컨텐츠의 크기를 width나 height로 계산
-기본은 컨텐츠의 크기만 width, height로 계산
+- border-box : 테두리 두께 + padding +  컨텐츠의 크기를 width나 height로 계산
+- 기본은 컨텐츠의 크기만 width, height로 계산
+

@@ -1,0 +1,50 @@
+.main {
+
+    height: 700px;
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+/*.main, .picture, .desc, .desc_1, .desc_2{*/
+/*    border: 1px solid red;*/
+/*}*/
+
+.picture {
+    background-image: url("https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/80f9d9d02af9527ab358c361/pexels-photo-3335367.jpeg");
+    display: inline-block;
+    background-size: cover;
+
+    width: 500px;
+    height: 700px;
+}
+
+.desc {
+    overflow: hidden;
+    display: inline-block;
+    width: 591px;
+    height: 700px;
+}
+
+.desc_1 {
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 30px;
+    line-height: 1.6;
+    font-size: 20px;
+}
+.desc_2 {
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 45px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 2px solid #333333;
+}
+.desc_2 a {
+    color: #717171;
+    line-height: 20px;
+
+}
