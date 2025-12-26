@@ -1,0 +1,55 @@
+.layout {
+    /*border : 1px solid red;*/
+    position : absolute;
+    top: 0;
+    left: 0;
+
+    height: 40%;
+    width: 100vw;
+    position: fixed;
+    z-index: 444;
+}
+
+.layout .menu {
+    /*border : 1px solid red;*/
+    height : 50px;
+    background-color: RGBA(0, 0, 5, 0.5);
+    text-align: center;
+
+}
+.layout .submenu {
+    /*border : 1px solid red;*/
+    height : 260px;
+    width : 100vw;
+    box-sizing: border-box;
+    position: absolute;
+    top: 50px;
+    display: none;
+    background-color: white;
+
+}
+
+.menu:hover .submenu{
+    display: block;
+}
+
+.menu_1, .menu_2, .menu_3, .menu_4, .menu_5 {
+    /*border : 1px solid red;*/
+    height : 50px;
+    width : 10vw;
+    box-sizing: border-box;
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 50px;
+}
+
+.submenu div {
+    vertical-align: top;
+    margin-top: 20px;
+}
+.menu_1:hover { box-shadow : 0 0 3px 1px lightblue; }
+.menu_2:hover { box-shadow : 0 0 3px 1px lightblue; }
+.menu_3:hover { box-shadow : 0 0 3px 1px lightblue; }
+.menu_4:hover { box-shadow : 0 0 3px 1px lightblue; }
+.menu_5:hover { box-shadow : 0 0 3px 1px lightblue; }
