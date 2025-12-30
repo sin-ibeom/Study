@@ -1,0 +1,76 @@
+div {
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image : linear-gradient(#020202, #808080);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    width: 90%;
+    min-height: 80vh;
+    margin-top : 10%;
+    display: flex;
+    align-items : center;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 80%;
+    min-height: 60vh;
+    border-radius : 30px;
+    border: 1px solid #6c6c6c;
+    background-color: rgba(48, 48, 48, 0.65);
+}
+
+.form_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    min-width: 80%;
+    min-height : 50vh;
+}
+
+.name {
+    margin-top : 30px;
+}
+
+form div {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    min-width: 45vw;
+    height: 5vh;
+    margin-bottom : 10%;
+}
+
+#name, #email, #subject, #submit{
+    min-height: 4vh;
+    width: 360%;
+    background-color: rgb(66, 66, 66);
+    border : 1px solid #ffffff;
+    border-radius : 10px;
+    color : white;
+
+    transition : 0.5s;
+}
+
+#name:focus, #email:focus, #subject:focus, #submit:hover {
+    outline: none;
+    box-shadow: 0 0 3px 2px rgba(144, 255, 225, 0.49);
+    border : rgba(144, 255, 225, 0.1);
+}
+
+#submit{
+: center;
+}

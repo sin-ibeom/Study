@@ -1,0 +1,67 @@
+.wrapper { width : 90%; height : 759px; position : absolute; top: 86px ;left: 120px;}
+
+.main1 {
+    width : 30vw;
+    height : 30vw;
+    position : absolute;
+    top : 188px;
+    left: 494px;
+    z-index: 999;
+    display :flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: white;
+}
+
+
+.main2 {
+    width : 45vw;
+    height : 45vw;
+    position : absolute;
+    top :  102px;
+    left: 78px;
+    z-index: 998;
+    background-image : url("//images03.nicepage.com/c461c07a441a5d220e8feb1a/e1900cdaa5c15cecae8746b6/rtyy-min.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.main3 {
+    width : 55vw;
+    height : 55vw;
+    position : absolute;
+    top : 20px;
+    left: 434px;
+    z-index: 997;
+    background-color: var(--p_7color);
+
+}
+
+.title_1 {
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: var(--p_7color);
+    margin-right: 10px;
+
+}
+
+.title_2 {
+    font-weight: bold;
+    font-size: 2vw;
+    color: var(--p_7color);
+    width: 200px;
+    margin-right: 10px;
+    text-align: right;
+    font-family: serif;
+}
+
+.title_3, .title_3 a {
+    font-weight: bold;
+    color: var(--p_7color);
+}
+
+:root {
+    --p_7color: #5f4885;
+}

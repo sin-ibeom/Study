@@ -1,55 +1,67 @@
-.layout {
-    /*border : 1px solid red;*/
-    position : absolute;
-    top: 0;
-    left: 0;
-
-    height: 40%;
-    width: 100vw;
-    position: fixed;
-    z-index: 444;
+body {
+    background: black;
 }
 
-.layout .menu {
-    /*border : 1px solid red;*/
-    height : 50px;
-    background-color: RGBA(0, 0, 5, 0.5);
-    text-align: center;
-
-}
-.layout .submenu {
-    /*border : 1px solid red;*/
-    height : 260px;
-    width : 100vw;
-    box-sizing: border-box;
-    position: absolute;
-    top: 50px;
-    display: none;
-    background-color: white;
-
-}
-
-.menu:hover .submenu{
-    display: block;
-}
-
-.menu_1, .menu_2, .menu_3, .menu_4, .menu_5 {
-    /*border : 1px solid red;*/
-    height : 50px;
-    width : 10vw;
-    box-sizing: border-box;
-    display: inline-block;
+.wrapper {
+    width : 600px;
+    height : 100px;
     margin: 0 auto;
+    margin-top: 500px;
     text-align: center;
-    line-height: 50px;
 }
 
-.submenu div {
-    vertical-align: top;
-    margin-top: 20px;
+.wrapper a {
+    display: inline-block;
+    padding : 15px;
+    padding-right : 50px;
+    padding-left : 50px;
+    text-decoration: none;
+    color: white;
+    border-radius:15px;
+    /*margin: 15px;*/
+    /*margin-top: 18px;*/
+    border : 1px solid #595959;
+    background-color : #101010;
 }
-.menu_1:hover { box-shadow : 0 0 3px 1px lightblue; }
-.menu_2:hover { box-shadow : 0 0 3px 1px lightblue; }
-.menu_3:hover { box-shadow : 0 0 3px 1px lightblue; }
-.menu_4:hover { box-shadow : 0 0 3px 1px lightblue; }
-.menu_5:hover { box-shadow : 0 0 3px 1px lightblue; }
+
+.wrapper a:hover {
+    background-color: #303030;
+    position: relative;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.1);
+}
+
+.menu {
+    width : 900px;
+    height : 70px;
+    margin: 0 auto;
+    border-radius: 40px;
+    text-align: center;
+    color : white;
+    background-color: #0c0c0c;
+    border: #373737 1px solid;
+}
+
+
+.menu li {
+    list-style: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 40px;
+    line-height: 35px;
+    color: #888888;
+}
+
+.menu li:hover {
+    color: white;
+}
+
+.subtitle {
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 450px;
+    left: 30%;
+    width: 500px;
+
+}

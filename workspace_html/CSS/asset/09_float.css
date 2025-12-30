@@ -1,0 +1,34 @@
+article img {
+    width : 100px;
+
+    float : left;
+}
+
+.box {
+    border : 1px solid red;
+
+    width : 100px;
+    height : 100px;
+    margin: 10px;
+}
+
+.box.left {float : left;}
+.box.right {float : right;}
+
+.div3 {
+    border : 1px solid red;
+}
+
+.clearFix:after {
+    content : "";
+    display: block;
+    clear: both;
+}
+
+.logo {
+    border : 1px solid red;
+    width : 80px;
+    height : 40px;
+    margin: 0 auto;
+    text-align: center;
+}

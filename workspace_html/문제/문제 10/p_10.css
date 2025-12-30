@@ -1,0 +1,89 @@
+/*
+
+문제점 : px사용, 반응형 취약, 모든 태그에 딜레이 주면 X
+
+* % 사용하기
+* 반응형에 대비하기 flex 사용
+
+
+ */
+* {
+    transition : 0.5s;
+}
+
+body {
+    background-image : linear-gradient(#080707, #272727);
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat : no-repeat;
+    background-size: cover;
+    width : 100vw;
+    height : 100vh;
+}
+
+div {
+
+}
+
+.wrapper {
+    width : 80%;
+    height : 500px;
+    margin-top : 200px;
+}
+
+
+.left {
+    float : left;
+}
+.right {
+    float : right;
+}
+
+.left, .right {
+    height : 500px;
+    width : 50%;
+    box-sizing : border-box;
+}
+
+.left > div {
+    margin-bottom : 20px;
+    text-align : center;
+}
+
+.name {height : 50px;}
+.name > label > input {color : white ;background-color: RGBA(22, 22, 22, 1); height : 20px; width : 470px; padding : 12px; border-radius : 14px; border: rgba(58, 58, 58, 0.98) 1px solid;}
+.name > label > input:focus {
+    box-shadow : 0px 0px 4px 1px rgba(51, 255, 248, 0.98);
+    border : aqua;
+    outline : none;
+}
+
+.email {
+    height : 60px;
+}
+.email > label > input {color : white ;background-color: RGBA(22, 22, 22, 1); height : 20px; width : 470px; padding : 12px; border-radius : 14px; border: rgba(58, 58, 58, 0.98) 1px solid;}
+.email > label > input:focus {
+    box-shadow : 0px 0px 4px 1px rgba(51, 255, 248, 0.98);
+    border : aqua;
+    outline : none;
+}
+.subject {
+    height : 50px;
+}
+.subject > label > input {color : white ;background-color: RGBA(22, 22, 22, 1); height : 20px; width : 470px; padding : 12px; border-radius : 14px; border: rgba(58, 58, 58, 0.98) 1px solid;}
+.subject > label > input:focus {
+    box-shadow : 0px 0px 4px 1px rgba(51, 255, 248, 0.98);
+    border : aqua;
+    outline : none;
+}
+.message {
+    height : 200px;
+}
+.message > label > textarea {color : white ;background-color: RGBA(22, 22, 22, 1); height : 150px; width : 470px; padding : 12px; border-radius : 14px; border: rgba(58, 58, 58, 0.98) 1px solid;}
+.message > label > textarea:focus {
+    box-shadow : 0px 0px 5px 0px rgba(51, 255, 248, 0.98);
+    border : aqua;
+    outline : none;
+}
+.send > label > input[type=submit]  {color : white ;background-color: RGBA(22, 22, 22, 1); width : 470px; padding : 12px; border-radius : 14px; border: rgba(58, 58, 58, 0.98) 1px solid;}

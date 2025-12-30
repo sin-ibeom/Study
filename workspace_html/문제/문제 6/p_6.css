@@ -1,0 +1,91 @@
+.wrapper {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 40vh;
+}
+
+.top {
+    height : 10vh;
+    width : 100vw;
+    background-color: black;
+}
+
+.menu {
+    height : 30vh;
+    background-color: RGBA(0, 0, 5, 0.5);
+    width : 100vw;
+    display: none;
+    position: absolute;
+    top: 80px;
+    left: 0;
+}
+
+.top:hover .menu{
+    display: block;
+}
+
+.menu:hover {
+    display: block;
+}
+
+.top2 {
+    border: 1px solid red;
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    z-index: 999;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 10vh;
+}
+
+.menu2 {
+    display: none;
+    border: 1px solid blue;
+    width: 100vw;
+    height: 40vh;
+    position: fixed;
+    top: 10vh;
+    left: 0;
+    text-align: center;
+    z-index: 999;
+    line-height: 70px
+}
+
+.top2:hover + .menu2 {display: block;}
+.menu2:hover {display: block;}
+
+li {
+    list-style: none;
+}
+
+.p1 {
+    border : 1px solid red;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.c1 {
+    border : 1px solid blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+
+    top: calc((200px/2) - (100px/2));
+    left: calc((200px/2) - (100px/2));
+}
+
+:root {
+    --menucolor: rgb(0, 0, 255);
+}
+
+.p1 {
+    background-color: var(--menucolor);
+}
